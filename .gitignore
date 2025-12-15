@@ -1,0 +1,5 @@
+# Exclude videos folder
+videos/
+
+# Exclude memories history JSON file
+memories_history.json
