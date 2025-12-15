@@ -104,8 +104,8 @@ class SnapchatMemoryDownloader:
 
 def main():
     """Entry point for the script."""
-    json_file = "/home/saadyaq/SE/Python/snap_mem/memories_history.json"
-    output_dir = "/home/saadyaq/SE/Python/snap_mem/videos"
+    json_file = "" #The json file snapchat sent you
+    output_dir = ""
 
     try:
         downloader = SnapchatMemoryDownloader(json_file, output_dir)
